@@ -1,0 +1,39 @@
+@import "heading.css";
+@import "paragraph.css";
+
+* { font-family: "arial black";}
+
+div *{font-family: "cosmic sans MS", cursive, sans-serif;}
+
+.sitelink{
+  font-family: Georgia, serif;
+}
+
+#tonyquote{
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: black;
+}
+
+p.sitelink{
+  font-family: "Palatino Linotype", "Book Antique", Palatino, sans-serif;
+  color: black;
+}
+
+span#tonyname{
+  font-family: "Times New Roman", Times, serif;
+}
+#tutorials ol li{
+  color: purple;
+}
+
+#tutorials ul li{
+  color:green;
+}
+
+h3 + p{
+  font-style: italic;
+}
+
+h3 + p > a{
+  color:red;
+}
